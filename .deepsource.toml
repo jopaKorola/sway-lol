@@ -1,25 +1,5 @@
 version = 1
 
 [[analyzers]]
-name = "javascript"
-
-  [analyzers.meta]
-  plugins = [
-    "react",
-    "vue",
-    "ember",
-    "meteor",
-    "angularjs",
-    "angular"
-  ]
-  environment = [
-    "jasmine",
-    "mocha",
-    "vitest",
-    "jest",
-    "cypress",
-    "browser",
-    "mongo",
-    "jquery",
-    "nodejs"
-  ]
+name = "slither"
+type = "community"
